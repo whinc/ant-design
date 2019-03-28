@@ -15,6 +15,46 @@ timeline: true
 
 ---
 
+## 3.15.2
+
+`2019-03-23`
+
+- 📖 New English translation for [Data Display](https://ant.design/docs/spec/data-display) and [Feedback](https://ant.design/docs/spec/feedback). [#15454](https://github.com/ant-design/ant-design/pull/15454) [@klouskingsley](https://github.com/klouskingsley) [#15460](https://github.com/ant-design/ant-design/pull/15460) [@klouskingsley](https://github.com/klouskingsley)
+- 🌟 Add two less variables `@font-feature-settings` and `@select-item-selected-font-weight`. [#15506](https://github.com/ant-design/ant-design/pull/15506) [@dancerphil](https://github.com/dancerphil) [#15515](https://github.com/ant-design/ant-design/pull/15515) [@willc001](https://github.com/willc001) 
+- 🐞 Fix the scale calculate logic when Avatar is remounted. [#15503](https://github.com/ant-design/ant-design/pull/15503)
+- 🐞 Fix inefficient custom `width` for DatePicker. [#15547](https://github.com/ant-design/ant-design/pull/15547) [@DiamondYuan](https://github.com/DiamondYuan)
+- 🐞 Fix the incorrect priority of icon style for Notification. [#15530](https://github.com/ant-design/ant-design/pull/15530)
+- 🐞 Fix that `notFound` content is not aligned for Select. [#15570](https://github.com/ant-design/ant-design/pull/15570)
+- 🐞 Fix empty missing when `loading` property is true for Table. [#15583](https://github.com/ant-design/ant-design/pull/15583)
+- 🐞 Fix the incorrect `white-space` style for Tag. [#15526](https://github.com/ant-design/ant-design/pull/15526) [@Kapiroska](https://github.com/Kapiroska)
+- 🐞 Fix the incorrect judgement on image type for Upload. [#15354](https://github.com/ant-design/ant-design/pull/15354)
+
+## 3.15.1
+
+`2019-03-17`
+
+- 🌟 Add four less variables `@pagination-item-bg-active`, `@icon-color`. [#15302](https://github.com/ant-design/ant-design/pull/15302) [#15343](https://github.com/ant-design/ant-design/issues/15343)
+- 🐞 Fix tree-shaking not working for importing PageHeader. [#15354](https://github.com/ant-design/ant-design/pull/15354)
+- List
+  - 🐞 Fix some List Item styling issues. [#15328](https://github.com/ant-design/ant-design/pull/15328)
+  - 🐞 Keep same content color of List like previous version. [#15301](https://github.com/ant-design/ant-design/pull/15301)
+- 🐞 Fix Calendar can't switch type. [#15338](https://github.com/ant-design/ant-design/pull/15338) [@zy410419243](https://github.com/zy410419243)
+- Badge
+  - 🐞 Fix the issue that customized color is not supported in Badge. [#15356](https://github.com/ant-design/ant-design/pull/15356) [@DiamondYuan](https://github.com/DiamondYuan)
+  - 🐞 Fix height problem of Badge with dot. [#15395](https://github.com/ant-design/ant-design/pull/15395)
+- 🐞 Fix tabbar style of Tabs in card mode when browser is zoomed out. [#15299](https://github.com/ant-design/ant-design/pull/15299) [@rinick](https://github.com/rinick)
+- 🐞 Fix Avatar component cannot calculate the offset when `display: none` is set. [#15351](https://github.com/ant-design/ant-design/pull/15351) [@ppbl](https://github.com/ppbl)
+- 🐞 Correct suffix icon in Input.Password. [#15381](https://github.com/ant-design/ant-design/pull/15381) [@melchior-voidwolf](https://github.com/melchior-voidwolf)
+- 🐞 Fix Layout has classname `ant-layout-has-sider` even if `hasFixer` is set to `false`. [#15396](https://github.com/ant-design/ant-design/pull/15396) [@SoraYama](https://github.com/SoraYama)
+- 🐞 Fix Divider alignment issue in PageHeader. [#15400](https://github.com/ant-design/ant-design/pull/15400)
+- 🐞 Fix a style issue of Skeleton. [#15421](https://github.com/ant-design/ant-design/pull/15421)  [@Maktel](https://github.com/Maktel)
+- 🌟 Adjust multiple TypeScript types
+  - 🌟 FormComponentProps added a generic type of form values. [#15355](https://github.com/ant-design/ant-design/pull/15355)
+  - 🌟 Export ConfigProviderProps interface. [#15446](https://github.com/ant-design/ant-design/pull/15446)  [@DiamondYuan](https://github.com/DiamondYuan)
+  - 🐞 Add `onClick` prop for Breadcrumb.Item. [#15331](https://github.com/ant-design/ant-design/pull/15331) [@tgxpuisb](https://github.com/tgxpuisb)
+  - 🐞 Add `style` prop for Steps.Step component. [#15393](https://github.com/ant-design/ant-design/pull/15393) [@pavolgolias](https://github.com/pavolgolias)
+  - 🐞 Fix `itemRender` definition of Pagination. [#15428](https://github.com/ant-design/ant-design/pull/15428) [@DiamondYuan](https://github.com/DiamondYuan)
+
 ## 3.15.0
 
 `2019-03-08`
